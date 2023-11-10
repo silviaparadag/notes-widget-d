@@ -1,0 +1,43 @@
+@import '../core/variables.scss';
+
+.compose {
+    background-color: $color-primary;
+    border: 1px solid $color-primary3;
+    border-radius: 0 0 6px 6px;
+    padding: 0 1rem 1rem 1rem;
+
+    &__form {
+        background-color: $color-primary;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: .3rem;
+
+        &--textarea {
+            border: none;
+            resize: none;
+            font-size: 0.65rem;
+            width: 35vw;
+            padding: .35rem;
+        }
+
+        &--textarea::placeholder {
+            font-size: .6rem;
+            opacity: 0.5;
+            color: $color-secondary5;
+        }
+
+        &--btn {
+            background-color: $color-secondary;
+            color: white;
+            padding: .3rem;
+            width: 3rem;
+            border-radius: 3px;
+
+            &:disabled {
+                background-color: $color-secondary3;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

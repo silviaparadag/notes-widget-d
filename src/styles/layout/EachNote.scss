@@ -1,0 +1,148 @@
+@import '../core/variables.scss';
+
+.note {
+    display: flex;
+    flex-direction: row;
+    padding: .9rem;
+    justify-content: space-between;
+
+    &:focus {
+        border: none;
+        outline: none;
+
+
+    }
+
+    &:hover {
+        &:not(:focus) {
+            background-color: $color-primary3;
+        }
+    }
+
+    &.focused {
+        background-color: #b5c7dca4;
+        border-radius: .2rem;
+        outline: solid 1px #729fd6;
+    }
+
+    &__post {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    &__userImage {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+
+        &--user {
+            color: $color-primary2;
+            font-weight: 600;
+        }
+
+        &--post {
+            background-color: transparent;
+            color: $color-primary2;
+            text-align: left;
+            font-size: 0.6rem;
+            width: 20vw;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+
+    }
+
+    &__editText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 0.3rem;
+        width: 200px;
+        background-color: $color-secondary2;
+        border: .5px solid $color-primary3;
+        border-radius: 5px;
+
+
+        &--text {
+            background-color: transparent;
+            color: $color-primary2;
+            text-align: left;
+            font-size: 0.6rem;
+            padding-right: 3rem;
+            width: 80%;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+
+        &--btns {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            gap: .3rem;
+            font-size: 0.45rem;
+        }
+
+        &--cancel {
+            background-color: transparent;
+            color: $color-primary2;
+            width: 3rem;
+            height: .9rem;
+            line-height: .1rem;
+            border-radius: .2rem;
+
+        }
+
+        &--save {
+            background-color: $color-secondary4;
+            color: $color-primary;
+            width: 3rem;
+            height: .9rem;
+            line-height: .1rem;
+            font-weight: 700;
+            border-radius: .2rem;
+        }
+
+    }
+
+
+
+
+    &__edit {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: .15rem;
+        padding-left: 1rem;
+
+        &--edit,
+        &--trash {
+            height: 15px;
+            opacity: 0.6;
+        }
+
+        &--btn {
+            outline: none;
+            border: none;
+            background-color: transparent;
+            padding: 0.2rem;
+
+            &:hover,
+            &:focus {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+}

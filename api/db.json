@@ -1,0 +1,57 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "createdAt": 1694110384,
+      "text": "Team, what do you all think?",
+      "type": "userGenerated",
+      "author": {
+        "id": "4cb14366a1690297080175b17f24da74",
+        "name": "Martin",
+        "avatar": "https://avatars.githubusercontent.com/u/651610?v=4"
+      }
+    },
+    {
+      "id": "3",
+      "createdAt": 1694110584,
+      "text": "Let's add more relevant hashtags?",
+      "type": "userGenerated",
+      "author": {
+        "id": "d2e307bb65ee51715dc060ae1d941bc5",
+        "name": "Silvia",
+        "avatar": "https://avatars.githubusercontent.com/u/130361802?v=4"
+      }
+    },
+    {
+      "id": "4",
+      "createdAt": 1694110784,
+      "text": "Silvia, tha's a great idea! How does it look now?",
+      "type": "userGenerated",
+      "author": {
+        "id": "4cb14366a1690297080175b17f24da74",
+        "name": "Martin",
+        "avatar": "https://avatars.githubusercontent.com/u/651610?v=4"
+      }
+    }
+  ],
+  "me": {
+    "id": "d2e307bb65ee51715dc060ae1d941bc5",
+    "name": "Silvia",
+    "email": "silvia@mail.com",
+    "avatar": "https://avatars.githubusercontent.com/u/130361802?v=4"
+  },
+  "users": {
+    "4cb14366a1690297080175b17f24da74": {
+      "id": "4cb14366a1690297080175b17f24da74",
+      "name": "Martin",
+      "email": "martin@mail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/651610?v=4"
+    },
+    "d2e307bb65ee51715dc060ae1d941bc5": {
+      "id": "d2e307bb65ee51715dc060ae1d941bc5",
+      "name": "Silvia",
+      "email": "silvia@mail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/130361802?v=4"
+    }
+  }
+}
